@@ -1,0 +1,17 @@
+title: Fitness Tracker
+description: Track your daily steps and fitness goals
+baseurl: "" # Change this to your repo name if not using a custom domain
+url: "" # Your GitHub Pages URL will go here
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
