@@ -1,29 +1,25 @@
 {
-  "lastUpdated": "2024-12-27T12:21:52.567520",
+  "lastUpdated": "2024-12-27T12:37:19.629144",
   "dailyData": {
     "steps": 6525,
     "goal": 100000,
     "date": "2024-12-27",
-    "weeklyAverage": 9973,
+    "weeklyAverage": 6525,
     "currentStreak": 0,
-    "distance": 5.22
+    "distance": 5.56
   },
   "yearlyData": {
-    "totalSteps": 19946,
+    "totalSteps": 6525,
     "goal": 36500000,
     "bestMonth": "December",
-    "averageSteps": 9973,
-    "totalDistance": 15.96,
+    "averageSteps": 6525,
+    "totalDistance": 5.56,
     "dailyRecords": [
-      {
-        "date": "2024-12-26",
-        "steps": 13421,
-        "goal": 100000
-      },
       {
         "date": "2024-12-27",
         "steps": 6525,
-        "goal": 100000
+        "goal": 100000,
+        "distance": 5.56
       }
     ]
   }
