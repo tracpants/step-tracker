@@ -9,23 +9,23 @@ layout: default
     </div>
     
     <div class="stat-card">
-        <h2>Weekly Stats</h2>
+        <h2>Weekly Overview</h2>
         <div id="weekStats"></div>
     </div>
     
     <div class="stat-card">
-        <h2>Monthly Stats</h2>
+        <h2>Monthly Progress</h2>
         <div id="monthStats"></div>
     </div>
     
     <div class="stat-card">
-        <h2>Yearly Stats</h2>
+        <h2>Yearly Achievement</h2>
         <div id="yearStats"></div>
     </div>
 </div>
 
 <div class="stat-card">
-    <h2>Recent Records</h2>
+    <h2>Activity History</h2>
     <ul class="record-list" id="records"></ul>
 </div>
 
@@ -40,46 +40,55 @@ async function loadStepData() {
     }
 }
 
+function formatNumber(num) {
+    return num.toLocaleString();
+}
+
 function displayData(data) {
     // Update last updated time
     document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString();
     
     // Today's stats
     const today = data.statistics.today;
+    const progressPercentage = (today.steps / today.goal) * 100;
     document.getElementById('todayStats').innerHTML = `
-        <p>Steps: ${today.steps.toLocaleString()}</p>
-        <p>Distance: ${today.distance} km</p>
+        <div class="stat-value">${formatNumber(today.steps)}</div>
+        <div class="stat-label">steps today</div>
+        <div class="stat-label">${today.distance} km walked</div>
         <div class="progress-bar">
-            <div class="progress-bar-fill" style="width: ${(today.steps / today.goal) * 100}%"></div>
+            <div class="progress-bar-fill" style="width: ${Math.min(progressPercentage, 100)}%"></div>
         </div>
-        <p>Goal: ${today.goal.toLocaleString()} steps</p>
+        <div class="stat-label">${progressPercentage.toFixed(1)}% of daily goal (${formatNumber(today.goal)} steps)</div>
     `;
     
     // Weekly stats
     const week = data.statistics.week;
     document.getElementById('weekStats').innerHTML = `
-        <p>Total Steps: ${week.total_steps.toLocaleString()}</p>
-        <p>Average Steps: ${week.average_steps.toLocaleString()}</p>
-        <p>Total Distance: ${week.total_distance} km</p>
-        <p>Best Day: ${week.best_day.steps.toLocaleString()} steps (${week.best_day.date})</p>
+        <div class="stat-value">${formatNumber(week.total_steps)}</div>
+        <div class="stat-label">total steps this week</div>
+        <div class="stat-label">Average: ${formatNumber(week.average_steps)} steps/day</div>
+        <div class="stat-label">Distance: ${week.total_distance} km</div>
+        <div class="stat-label">Best: ${formatNumber(week.best_day.steps)} steps (${week.best_day.date})</div>
     `;
     
     // Monthly stats
     const month = data.statistics.month;
     document.getElementById('monthStats').innerHTML = `
-        <p>Total Steps: ${month.total_steps.toLocaleString()}</p>
-        <p>Average Steps: ${month.average_steps.toLocaleString()}</p>
-        <p>Total Distance: ${month.total_distance} km</p>
-        <p>Days Logged: ${month.days_logged}</p>
+        <div class="stat-value">${formatNumber(month.total_steps)}</div>
+        <div class="stat-label">total steps this month</div>
+        <div class="stat-label">Average: ${formatNumber(month.average_steps)} steps/day</div>
+        <div class="stat-label">Distance: ${month.total_distance} km</div>
+        <div class="stat-label">Days Active: ${month.days_logged}</div>
     `;
     
     // Yearly stats
     const year = data.statistics.year;
     document.getElementById('yearStats').innerHTML = `
-        <p>Total Steps: ${year.total_steps.toLocaleString()}</p>
-        <p>Average Steps: ${year.average_steps.toLocaleString()}</p>
-        <p>Total Distance: ${year.total_distance} km</p>
-        <p>Days Logged: ${year.days_logged}</p>
+        <div class="stat-value">${formatNumber(year.total_steps)}</div>
+        <div class="stat-label">total steps this year</div>
+        <div class="stat-label">Average: ${formatNumber(year.average_steps)} steps/day</div>
+        <div class="stat-label">Distance: ${year.total_distance} km</div>
+        <div class="stat-label">Days Active: ${year.days_logged}</div>
     `;
     
     // Records
@@ -87,9 +96,9 @@ function displayData(data) {
     recordsList.innerHTML = data.statistics.records
         .map(record => `
             <li>
-                Date: ${record.date}<br>
-                Steps: ${record.steps.toLocaleString()}<br>
-                Distance: ${record.distance} km
+                <div class="record-date">${record.date}</div>
+                <div class="record-steps">${formatNumber(record.steps)} steps</div>
+                <div class="record-distance">${record.distance} km</div>
             </li>
         `)
         .join('');
