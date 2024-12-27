@@ -1,64 +1,64 @@
 {
-  "lastUpdated": "2024-12-27T15:28:09.378476",
+  "lastUpdated": "2024-12-28T06:05:28.674992",
   "statistics": {
     "week": {
       "start_date": "2024-12-23",
       "total_steps": 20911,
       "total_distance": 16.83,
-      "average_steps": 10455,
+      "average_steps": 6970,
       "best_day": {
         "date": "2024-12-26",
         "steps": 13421,
         "distance": 10.45
       },
       "worst_day": {
-        "date": "2024-12-27",
-        "steps": 7490,
-        "distance": 6.38
+        "date": "2024-12-28",
+        "steps": 0,
+        "distance": 0
       },
       "goal": 70000,
-      "days_logged": 2
+      "days_logged": 3
     },
     "month": {
       "start_date": "2024-12-01",
       "total_steps": 20911,
       "total_distance": 16.83,
-      "average_steps": 10455,
+      "average_steps": 6970,
       "best_day": {
         "date": "2024-12-26",
         "steps": 13421,
         "distance": 10.45
       },
       "worst_day": {
-        "date": "2024-12-27",
-        "steps": 7490,
-        "distance": 6.38
+        "date": "2024-12-28",
+        "steps": 0,
+        "distance": 0
       },
       "goal": 310000,
-      "days_logged": 2
+      "days_logged": 3
     },
     "year": {
       "start_date": "2024-01-01",
       "total_steps": 20911,
       "total_distance": 16.83,
-      "average_steps": 10455,
+      "average_steps": 6970,
       "best_day": {
         "date": "2024-12-26",
         "steps": 13421,
         "distance": 10.45
       },
       "worst_day": {
-        "date": "2024-12-27",
-        "steps": 7490,
-        "distance": 6.38
+        "date": "2024-12-28",
+        "steps": 0,
+        "distance": 0
       },
       "goal": 310000,
-      "days_logged": 2
+      "days_logged": 3
     },
     "today": {
-      "date": "2024-12-27",
-      "steps": 7490,
-      "distance": 6.38,
+      "date": "2024-12-28",
+      "steps": 0,
+      "distance": 0,
       "goal": 10000,
       "goal_achieved": false
     },
@@ -66,7 +66,7 @@
       "current": {
         "count": 1,
         "start_date": null,
-        "end_date": "2024-12-27"
+        "end_date": "2024-12-28"
       },
       "longest": {
         "count": 1,
@@ -86,6 +86,12 @@
         "steps": 7490,
         "goal": 10000,
         "distance": 6.38
+      },
+      {
+        "date": "2024-12-28",
+        "steps": 0,
+        "goal": 10000,
+        "distance": 0
       }
     ]
   }
