@@ -1,20 +1,80 @@
 {
-  "lastUpdated": "2024-12-27T12:41:29.699637",
-  "dailyData": {
-    "steps": 6991,
-    "goal": 100000,
-    "date": "2024-12-27",
-    "weeklyAverage": 10206,
-    "currentStreak": 0,
-    "distance": 5.95
-  },
-  "yearlyData": {
-    "totalSteps": 20412,
-    "goal": 36500000,
-    "bestMonth": "December",
-    "averageSteps": 10206,
-    "totalDistance": 16.4,
-    "dailyRecords": [
+  "lastUpdated": "2024-12-27T12:55:46.518365",
+  "statistics": {
+    "week": {
+      "start_date": "2024-12-23",
+      "total_steps": 20412,
+      "total_distance": 16.4,
+      "average_steps": 10206,
+      "best_day": {
+        "date": "2024-12-26",
+        "steps": 13421,
+        "distance": 10.45
+      },
+      "worst_day": {
+        "date": "2024-12-27",
+        "steps": 6991,
+        "distance": 5.95
+      },
+      "goal": 700000,
+      "days_logged": 2
+    },
+    "month": {
+      "start_date": "2024-12-01",
+      "total_steps": 20412,
+      "total_distance": 16.4,
+      "average_steps": 10206,
+      "best_day": {
+        "date": "2024-12-26",
+        "steps": 13421,
+        "distance": 10.45
+      },
+      "worst_day": {
+        "date": "2024-12-27",
+        "steps": 6991,
+        "distance": 5.95
+      },
+      "goal": 3100000,
+      "days_logged": 2
+    },
+    "year": {
+      "start_date": "2024-01-01",
+      "total_steps": 20412,
+      "total_distance": 16.4,
+      "average_steps": 10206,
+      "best_day": {
+        "date": "2024-12-26",
+        "steps": 13421,
+        "distance": 10.45
+      },
+      "worst_day": {
+        "date": "2024-12-27",
+        "steps": 6991,
+        "distance": 5.95
+      },
+      "goal": 3100000,
+      "days_logged": 2
+    },
+    "today": {
+      "date": "2024-12-27",
+      "steps": 6991,
+      "distance": 5.95,
+      "goal": 100000,
+      "goal_achieved": false
+    },
+    "streaks": {
+      "current": {
+        "count": 0,
+        "start_date": null,
+        "end_date": "2024-12-27"
+      },
+      "longest": {
+        "count": 0,
+        "start_date": null,
+        "end_date": null
+      }
+    },
+    "records": [
       {
         "date": "2024-12-26",
         "steps": 13421,
