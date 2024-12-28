@@ -1,98 +1,11 @@
 {
-  "lastUpdated": "2024-12-28T14:57:03.174869",
+  "lastUpdated": "2024-12-28T16:05:14.843462",
   "statistics": {
-    "week": {
-      "start_date": "2024-12-23",
-      "total_steps": 28095,
-      "total_distance": 22.25,
-      "average_steps": 9365,
-      "best_day": {
-        "date": "2024-12-26",
-        "steps": 13421,
-        "distance": 10.45
-      },
-      "worst_day": {
-        "date": "2024-12-28",
-        "steps": 7184,
-        "distance": 5.42
-      },
-      "goal": 70000,
-      "days_logged": 3
-    },
-    "month": {
-      "start_date": "2024-12-01",
-      "total_steps": 28095,
-      "total_distance": 22.25,
-      "average_steps": 9365,
-      "best_day": {
-        "date": "2024-12-26",
-        "steps": 13421,
-        "distance": 10.45
-      },
-      "worst_day": {
-        "date": "2024-12-28",
-        "steps": 7184,
-        "distance": 5.42
-      },
-      "goal": 310000,
-      "days_logged": 3
-    },
-    "year": {
-      "start_date": "2024-01-01",
-      "total_steps": 28095,
-      "total_distance": 22.25,
-      "average_steps": 9365,
-      "best_day": {
-        "date": "2024-12-26",
-        "steps": 13421,
-        "distance": 10.45
-      },
-      "worst_day": {
-        "date": "2024-12-28",
-        "steps": 7184,
-        "distance": 5.42
-      },
-      "goal": 310000,
-      "days_logged": 3
-    },
     "today": {
-      "date": "2024-12-28",
       "steps": 7184,
-      "distance": 5.42,
-      "goal": 10000,
       "goal_achieved": false
     },
-    "streaks": {
-      "current": {
-        "count": 1,
-        "start_date": null,
-        "end_date": "2024-12-28"
-      },
-      "longest": {
-        "count": 1,
-        "start_date": "2024-12-26",
-        "end_date": "2024-12-26"
-      }
-    },
-    "records": [
-      {
-        "date": "2024-12-26",
-        "steps": 13421,
-        "goal": 10000,
-        "distance": 10.45
-      },
-      {
-        "date": "2024-12-27",
-        "steps": 7490,
-        "goal": 10000,
-        "distance": 6.38
-      },
-      {
-        "date": "2024-12-28",
-        "steps": 7184,
-        "goal": 10000,
-        "distance": 5.42
-      }
-    ]
+    "average_steps": 9365,
+    "total_steps": 28095
   }
 }
