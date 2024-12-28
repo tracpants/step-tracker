@@ -3,47 +3,26 @@
     "records": [
       {
         "date": "2024-12-26",
-        "steps": 0,
+        "steps": 13421,
         "goal": 10000,
-        "distance": 0
+        "distance": 10.45,
+        "checked": true
       },
       {
         "date": "2024-12-27",
-        "steps": 0,
+        "steps": 10563,
         "goal": 10000,
-        "distance": 0
+        "distance": 8.99,
+        "checked": true
       },
       {
         "date": "2024-12-28",
-        "steps": 0,
+        "steps": 9157,
         "goal": 10000,
-        "distance": 0
+        "distance": 7.1,
+        "checked": true
       }
-    ],
-    "week": {
-      "start_date": "2024-12-23",
-      "total_steps": 0,
-      "total_distance": 0,
-      "average_steps": 0,
-      "goal": 70000,
-      "days_logged": 3
-    },
-    "month": {
-      "start_date": "2024-12-01",
-      "total_steps": 0,
-      "total_distance": 0,
-      "average_steps": 0,
-      "goal": 310000,
-      "days_logged": 3
-    },
-    "year": {
-      "start_date": "2024-01-01",
-      "total_steps": 0,
-      "total_distance": 0,
-      "average_steps": 0,
-      "goal": 3660000,
-      "days_logged": 3
-    }
+    ]
   },
-  "lastUpdated": "2024-12-28T17:12:19.579523"
+  "lastUpdated": "2024-12-28T19:06:38.295473"
 }
