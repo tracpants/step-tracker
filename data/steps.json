@@ -1,17 +1,29 @@
 {
-  "lastUpdated": "2024-12-28T16:50:06.677836",
+  "lastUpdated": "2024-12-28T16:58:09.093250",
   "statistics": {
     "week": {
+      "start_date": "2024-12-23",
       "total_steps": 31168,
-      "total_distance": 24.86
+      "total_distance": 24.86,
+      "average_steps": 10389,
+      "goal": 70000,
+      "days_logged": 3
     },
     "month": {
+      "start_date": "2024-12-01",
       "total_steps": 31168,
-      "total_distance": 24.86
+      "total_distance": 24.86,
+      "average_steps": 10389,
+      "goal": 10000,
+      "days_logged": 3
     },
     "year": {
+      "start_date": "2024-01-01",
       "total_steps": 31168,
-      "total_distance": 24.86
+      "total_distance": 24.86,
+      "average_steps": 10389,
+      "goal": 3660000,
+      "days_logged": 3
     },
     "today": {
       "date": "2024-12-28",
@@ -22,13 +34,13 @@
     },
     "streaks": {
       "current": {
-        "count": 1,
-        "start_date": null,
-        "end_date": "2024-12-28"
+        "count": 2,
+        "start_date": "2024-12-26",
+        "end_date": "2024-12-26"
       },
       "longest": {
-        "count": 1,
-        "start_date": "2024-12-26",
+        "count": 2,
+        "start_date": "2024-12-27",
         "end_date": "2024-12-26"
       }
     },
